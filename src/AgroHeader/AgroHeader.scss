@@ -1,0 +1,25 @@
+.agro-header {
+  position: fixed;
+  top: 0;
+  background: white;
+  overflow: hidden;
+  z-index: 10;
+
+  img {
+    max-height: 40px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+  }
+}
+
+.agro-header, .agro-header + .clear {
+  width: 100%;
+  height: 60px;
+}

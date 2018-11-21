@@ -1,0 +1,17 @@
+.home-button {
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  color: green;
+
+  div {
+    display: inline-block;
+    height: 100%;
+    padding: 10px 15px;
+  }
+
+  i span {
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,85 @@
+.product {
+  background-color: white;
+  width: 200px;
+  border-radius: 3px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  align-items :flex-start;
+  justify-content: space-between;
+  align-items: center;
+
+  .name, .price {
+    margin-top: 5px;
+    align-self: flex-start;
+    padding: 0 10px;
+  }
+
+  .name {
+    color: rgb(77, 76, 75);
+  }
+
+  .price {
+    font-weight: bold;
+  }
+
+
+  .image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+
+    .offer {
+        background-color: orange;
+        padding: 5px;
+        padding-right: 10px;
+        position: absolute;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        left: 0;
+        top: 30px;
+    }
+    img {
+      width: 85%;
+    }
+  }
+
+  .add-to-bag, .bag-update {
+    background-color: white;
+    width: 85%;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 3px;
+    font-size: 1em;
+  }
+
+
+  .add-to-bag {
+    outline: none;
+    color: green;
+    padding: 10px;
+  }
+
+  .bag-update {
+    display: flex;
+    position: relative;
+
+    p{
+      padding: 10px;
+      text-align: center;
+      width: 60%
+    }
+
+    button {
+      width: 20%;
+      font-size: 1.5em;
+      color: green;
+      outline: none;
+      border: none;
+      background-color: rgba(6, 117, 11, 0.35);
+      opacity: 50%;
+    }
+  }
+}

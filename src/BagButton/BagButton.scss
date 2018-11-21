@@ -1,0 +1,23 @@
+.bag-button {
+  outline: none;
+  border: none;
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  border-radius: 4px;
+
+  div {
+    display: inline-block;
+    height: 100%;
+    padding: 10px 15px;
+  }
+
+  i span {
+    margin-left: 5px;
+  }
+
+  .bag-counter {
+    background-color: darken(green, 10%);
+    border-radius: 0 4px 4px 0;
+  }
+}

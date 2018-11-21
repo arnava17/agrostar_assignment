@@ -1,0 +1,25 @@
+.search {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  ::placeholder {
+    font-style: italic;
+  }
+
+  .fa-search {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  input {
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 3px;
+    line-height: 2;
+    padding: 5px;
+    padding-left: 15px;
+
+  }
+}
